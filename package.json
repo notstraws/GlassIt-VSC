@@ -48,7 +48,7 @@
     "configuration": {
       "title": "GlassIt VSC configuration",
       "properties": {
-        "glassit.enableToastMessage": {
+        "glassit.enableToast": {
           "type": "boolean",
           "default": true,
           "description": "if toast messages are enabled"

@@ -116,7 +116,7 @@ function activate(context) {
     }
     function pushMessage(message)
     {
-        const isToastEnabled = config().get('enableToastMessage');
+        const isToastEnabled = config().get('enableToast');
         if (isToastEnabled)
         {
             window.showInformationMessage(message);
